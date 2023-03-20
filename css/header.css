@@ -1,0 +1,81 @@
+.headerFlexbox-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.logo-container{
+    width: 5rem;
+    height: 5rem;
+    background-color: #fff;
+
+
+}
+
+.logo{
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    background-image: url(../source/logo.jpg);
+    background-position: center;
+    background-size:cover ;  
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.menu a{
+    display: flex;
+    flex-wrap: wrap;
+    height: 4rem;
+    width: 12rem;
+    align-items: center;
+    justify-content: center;
+    font-family:Cambria;
+    font-size: 1.5rem;
+    font-weight: Bold;
+    color:rgb(33, 81, 112) ;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu a:hover{
+    background-color: rgba(132, 150, 163, 0.163);
+    color:rgba(33, 80, 112, 0.774)  ;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.menu li:hover .dropdown li{
+    top:0;
+    display: block;
+}
+
+.dropdown li{
+    display: none;
+    position: relative;
+}
+
+.dropdown{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    -moz-box-shadow:7px 10px 20px #A8A8A8; 
+    -webkit-box-shadow:7px 10px 20px #A8A8A8; 
+    box-shadow:7px 10px 20px #A8A8A8;
+    background-color: rgba(224, 227, 227, 0.777);
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
