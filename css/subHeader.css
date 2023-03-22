@@ -1,0 +1,107 @@
+.contactTitle-box{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contactTitle-box h3{
+    font-family:Cambria, Georgia, serif;
+    color:rgb(33, 81, 112) ;
+}
+
+.form-box{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+
+}
+
+.input-box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.input-box label{
+    margin-right: 1rem;
+    margin-left: 1rem;
+    font-family: Cambria, Georgia, serif;
+    color:rgb(28, 64, 87) ;
+}
+
+.input-box input{
+    width: 8rem;
+    border: 0.2rem solid #5c8e95;
+    padding: 0.3rem;
+    height: 0.5rem;
+    border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+    outline: none;
+    color: #71867c;
+}
+
+
+
+.submitButton{
+    margin-left: 1rem;
+    background-color: rgba(108, 170, 214, 0.424);
+    border-radius: 0.6rem;
+    border-width: 0;
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Cambria, Georgia, serif;
+    font-weight: 500;
+    line-height: 0.3rem;
+    list-style: none;
+    padding: 0.6rem 1rem;
+    text-align: center;
+    transition: all 200ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+@media screen and (width<1050px) {
+    .input-box{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .submitButton{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-right: 1rem;
+        background-color: rgba(108, 170, 214, 0.424);
+        border-radius: 0.6rem;
+        border-width: 0;
+        color: #333333;
+        cursor: pointer;
+        display: inline-block;
+        font-family: Cambria, Georgia, serif;
+        font-weight: 500;
+        line-height: 0.3rem;
+        list-style: none;
+        padding: 0.6rem 1rem;
+        text-align: center;
+        transition: all 200ms;
+        vertical-align: baseline;
+        white-space: nowrap;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+    }
+}
+
+.personal-box{
+    font-family: Cambria, Georgia, serif;
+    color:rgb(47, 108, 146) ;
+    margin-top: 1rem;
+}
+

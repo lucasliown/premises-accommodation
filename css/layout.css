@@ -6,7 +6,7 @@
 .grid-container{
     display: grid;
     grid-template-columns:repeat(12,1fr) ;
-    grid-gap :0.1rem;
+    grid-gap :0.01rem;
     grid-auto-rows: minmax(4rem, auto);
     justify-content: center;
     min-height: 100vh;
@@ -24,7 +24,8 @@ header{
 
 .subHeader{
     grid-column: span 12;
-    grid-row:span 3;
+    grid-row:span 2;
+    background-color:#dcd7d759;
 }
 
 .slider{
