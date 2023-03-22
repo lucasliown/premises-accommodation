@@ -24,7 +24,12 @@ header{
 
 .subHeader{
     grid-column: span 12;
-    grid-row:span 1;
+    grid-row:span 3;
+}
+
+.slider{
+    grid-column: span 12;
+    grid-row:span 4;
 }
 
 main{
