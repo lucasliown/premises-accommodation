@@ -10,7 +10,6 @@ function displayMessage(event){
     let titleBox=document.getElementById("titleBox");
     let title=document.getElementById("title");
     titleBox.removeChild(title);
-    console.log("11")
     titleBox.innerHTML=getPersonalDetailHTML(name)
 }
 

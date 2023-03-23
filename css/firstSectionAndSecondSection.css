@@ -1,0 +1,92 @@
+.first-section-and-second-section-containier{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+
+
+}
+
+
+.first-section{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    width: 20rem;
+}
+
+.left-card{
+    background-color:rgba(112, 152, 178, 0.738);
+    width: 19rem;
+    height: 19rem;
+    margin: 0.5rem;
+    -moz-box-shadow:0px 10px 20px #B5B5B5; 
+    -webkit-box-shadow:0px 10px 20px #B5B5B5; 
+    box-shadow:0px 10px 20px #B5B5B5;
+    opacity: 0.9;
+    border: 0.1rem solid #c8c4c4a0;
+}
+
+.left-card:hover{
+    transform: scale(1.05);
+
+}
+
+.left-card-image{
+    background-color:rgb(43, 47, 50) ;
+    height: 9rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+    -moz-box-shadow:0px 10px 20px #B5B5B5; 
+    -webkit-box-shadow:0px 10px 20px #B5B5B5; 
+    box-shadow:0px 10px 20px #B5B5B5;
+}
+
+.left-card p{
+    padding: 0.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(48,48,48) ;
+}
+
+.left-card h3{
+    padding: 0.2rem;
+    font-family:Cambria, Georgia, serif;
+    color:rgb(33, 81, 112) ;
+
+}
+
+.left-card a{
+    background-color: rgba(197, 195, 195, 0.596);
+    color: white;
+    padding: 0.1rem 0.2rem;
+    display:block;
+    text-align: center;
+    margin-left: 6rem ;
+    margin-right: 6rem ;
+    text-decoration: none;
+    opacity: 0.8;
+    border-radius: 0.5em;
+    border: 0.1em solid #fff;
+}
+
+
+
+.card-1{
+    background-image: url(../source/left-card1.png);
+}
+
+.card-2{
+    background-image: url(../source/left-card2.png);
+}
+
+.card-3{
+    background-image: url(../source/left-card3.png);
+}
+
+.second-section{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    width: 59.5rem;
+    height: 60rem;
+    background-color: aquamarine;
+}
