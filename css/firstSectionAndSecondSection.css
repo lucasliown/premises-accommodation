@@ -152,3 +152,7 @@
     -webkit-user-select: none;
     touch-action: manipulation;
 }
+
+.second-section-buttonbox Button:hover{
+    background-color: rgba(84, 130, 163, 0.693);
+}
