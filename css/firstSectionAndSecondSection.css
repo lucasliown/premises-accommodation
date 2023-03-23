@@ -1,162 +1,151 @@
-.first-section-and-second-section-containier{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:center;
-
-
+.first-section-and-second-section-containier {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-
-.first-section{
-    display: flex;
-    justify-content:center;
-    flex-wrap: wrap;
-    width: 20rem;
+.first-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 20rem;
 }
 
-.left-card{
-    background-color:rgba(112, 152, 178, 0.738);
-    width: 19rem;
-    height: 19rem;
-    margin: 0.5rem;
-    -moz-box-shadow:0px 10px 20px #B5B5B5; 
-    -webkit-box-shadow:0px 10px 20px #B5B5B5; 
-    box-shadow:0px 10px 20px #B5B5B5;
-    opacity: 0.9;
-    border: 0.1rem solid #c8c4c4a0;
+.left-card {
+  background-color: rgba(112, 152, 178, 0.738);
+  width: 19rem;
+  height: 19rem;
+  margin: 0.5rem;
+  -moz-box-shadow: 0px 10px 20px #b5b5b5;
+  -webkit-box-shadow: 0px 10px 20px #b5b5b5;
+  box-shadow: 0px 10px 20px #b5b5b5;
+  opacity: 0.9;
+  border: 0.1rem solid #c8c4c4a0;
 }
 
-.left-card:hover{
-    transform: scale(1.05);
-
+.left-card:hover {
+  transform: scale(1.05);
 }
 
-.left-card-image{
-    background-color:rgb(43, 47, 50) ;
-    height: 9rem;
-    margin-bottom: 1rem;
-    background-size: cover;
-    -moz-box-shadow:0px 10px 20px #B5B5B5; 
-    -webkit-box-shadow:0px 10px 20px #B5B5B5; 
-    box-shadow:0px 10px 20px #B5B5B5;
+.left-card-image {
+  background-color: rgb(43, 47, 50);
+  height: 9rem;
+  margin-bottom: 1rem;
+  background-size: cover;
+  -moz-box-shadow: 0px 10px 20px #b5b5b5;
+  -webkit-box-shadow: 0px 10px 20px #b5b5b5;
+  box-shadow: 0px 10px 20px #b5b5b5;
 }
 
-.left-card p{
-    padding: 0.2rem;
-    font-family: Arial, Helvetica, sans-serif;
-    color:rgb(48,48,48) ;
+.left-card p {
+  padding: 0.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(48, 48, 48);
 }
 
-.left-card h3{
-    padding: 0.2rem;
-    font-family:Cambria, Georgia, serif;
-    color:rgb(33, 81, 112) ;
-
+.left-card h3 {
+  padding: 0.2rem;
+  font-family: Cambria, Georgia, serif;
+  color: rgb(33, 81, 112);
 }
 
-.left-card a{
-    background-color: rgba(47, 73, 101, 0.915);
-    color: white;
-    padding: 0.1rem 0.2rem;
-    display:block;
-    text-align: center;
-    margin-left: 6rem ;
-    margin-right: 6rem ;
-    text-decoration: none;
-    opacity: 0.8;
-    border-radius: 0.5em;
+.left-card a {
+  background-color: rgba(47, 73, 101, 0.915);
+  color: white;
+  padding: 0.1rem 0.2rem;
+  display: block;
+  text-align: center;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  text-decoration: none;
+  opacity: 0.8;
+  border-radius: 0.5em;
 }
 
-.left-card a:hover{
-    background-color: rgba(47, 73, 101, 0.193);
-
+.left-card a:hover {
+  background-color: rgba(47, 73, 101, 0.193);
 }
 
-
-
-.card-1{
-    background-image: url(../source/left-card1.png);
+.card-1 {
+  background-image: url(../source/left-card1.png);
 }
 
-.card-2{
-    background-image: url(../source/left-card2.png);
+.card-2 {
+  background-image: url(../source/left-card2.png);
 }
 
-.card-3{
-    background-image: url(../source/left-card3.png);
+.card-3 {
+  background-image: url(../source/left-card3.png);
 }
 
-.second-section{
-    display: flex;
-    justify-content:center;
-    flex-wrap: wrap;
-    margin-top: 0.5rem;
-    width: 59.5rem;
+.second-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+  width: 59.5rem;
 }
 
-.second-section-image{
-    width: 30rem;
-    height: 57.5rem;
-    background-color: rgb(160, 206, 191);
-    background-image: url(../source/second-section-Image.jpg);
-    background-size: cover;
-    border: 1rem solid #fff;
-
+.second-section-image {
+  width: 30rem;
+  height: 57.5rem;
+  background-color: rgb(160, 206, 191);
+  background-image: url(../source/second-section-Image.jpg);
+  background-size: cover;
+  border: 1rem solid #fff;
 }
 
-
-.second-section-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 25rem;
+.second-section-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25rem;
 }
 
-.textbox{
-    width: 25rem;
-    height: 40rem;
-    font-family: Cambria, Georgia, serif;
-    color: #646161;
-
+.textbox {
+  width: 25rem;
+  height: 40rem;
+  font-family: Cambria, Georgia, serif;
+  color: #646161;
 }
 
-.text{
-    margin-top: 3rem;
-    padding: 5rem;
+.text {
+  margin-top: 3rem;
+  padding: 5rem;
 }
 
-.second-section-buttonbox{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    align-content: center;
-    width: 25rem;
-    height: 19.5rem;
+.second-section-buttonbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 25rem;
+  height: 19.5rem;
 }
 
-.second-section-buttonbox Button{
-    margin-left: 1rem;
-    background-color: rgba(46, 70, 86, 0.584);
-    border-radius: 0.6rem;
-    border-width: 0;
-    color: #ffffff;
-    font-size: larger;
-    cursor: pointer;
-    display: inline-block;
-    font-family: Cambria, Georgia, serif;
-    font-weight: 1000;
-    line-height: 0.3rem;
-    list-style: none;
-    padding: 1rem 2rem;
-    text-align: center;
-    transition: all 200ms;
-    vertical-align: baseline;
-    white-space: nowrap;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
+.second-section-buttonbox Button {
+  margin-left: 1rem;
+  background-color: rgba(46, 70, 86, 0.584);
+  border-radius: 0.6rem;
+  border-width: 0;
+  color: #ffffff;
+  font-size: larger;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Cambria, Georgia, serif;
+  font-weight: 1000;
+  line-height: 0.3rem;
+  list-style: none;
+  padding: 1rem 2rem;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
 
-.second-section-buttonbox Button:hover{
-    background-color: rgba(84, 130, 163, 0.693);
+.second-section-buttonbox Button:hover {
+  background-color: rgba(84, 130, 163, 0.693);
 }

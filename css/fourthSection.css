@@ -38,34 +38,34 @@
   padding-bottom: 3rem;
 }
 
-
-.fourth-section-buttonbox{
-    display: flex;
-    justify-content:center;
+.fourth-section-buttonbox {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
 }
 
-.fourth-section-buttonbox Button{
-    background-color: rgba(60, 91, 113, 0.693);;
-    border-radius: 0.6rem;
-    border-width: 0;
-    color: #ffffff;
-    font-size: larger;
-    cursor: pointer;
-    display: inline-block;
-    font-family: Cambria, Georgia, serif;
-    font-weight: 1000;
-    line-height: 0.3rem;
-    list-style: none;
-    padding: 1rem 2rem;
-    text-align: center;
-    transition: all 200ms;
-    vertical-align: baseline;
-    white-space: nowrap;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
+.fourth-section-buttonbox Button {
+  background-color: rgba(60, 91, 113, 0.693);
+  border-radius: 0.6rem;
+  border-width: 0;
+  color: #ffffff;
+  font-size: larger;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Cambria, Georgia, serif;
+  font-weight: 1000;
+  line-height: 0.3rem;
+  list-style: none;
+  padding: 1rem 2rem;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
 
-.fourth-section-buttonbox Button:hover{
-    background-color: rgba(84, 130, 163, 0.693);
+.fourth-section-buttonbox Button:hover {
+  background-color: rgba(84, 130, 163, 0.693);
 }

@@ -1,62 +1,61 @@
-.third-section-imagebox{
-    display: flex;
-    justify-content:center;
-    flex-wrap: wrap;
+.third-section-imagebox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.third-section-image{
-    margin-left: 0.7rem;
-    margin-right: 1.8rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    border-radius: 0.2rem;
-    -moz-box-shadow:0px 10px 20px #B5B5B5; 
-    -webkit-box-shadow:0px 10px 20px #B5B5B5; 
-    box-shadow:0px 10px 20px #686767;
-    border: 1rem solid #ffffff;
-    opacity: 0.9;
+.third-section-image {
+  margin-left: 0.7rem;
+  margin-right: 1.8rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 0.2rem;
+  -moz-box-shadow: 0px 10px 20px #b5b5b5;
+  -webkit-box-shadow: 0px 10px 20px #b5b5b5;
+  box-shadow: 0px 10px 20px #686767;
+  border: 1rem solid #ffffff;
+  opacity: 0.9;
 }
 
-.third-section-image:hover{
-    transform: scale(1.1);
-
+.third-section-image:hover {
+  transform: scale(1.1);
 }
 
-.third-section-image a{
-    display: block;
-    background-size: cover;
-    height: 15rem;
-    width: 15rem;
+.third-section-image a {
+  display: block;
+  background-size: cover;
+  height: 15rem;
+  width: 15rem;
 }
 
-.image-g1{
-    background-image: url(../source/Thumbnail\ Gallery1.png);
+.image-g1 {
+  background-image: url(../source/Thumbnail\ Gallery1.png);
 }
 
-.image-g2{
-    background-image: url(../source/Thumbnail\ Gallery2.png);
+.image-g2 {
+  background-image: url(../source/Thumbnail\ Gallery2.png);
 }
 
-.image-g3{
-    background-image: url(../source/Thumbnail\ Gallery3.png);
+.image-g3 {
+  background-image: url(../source/Thumbnail\ Gallery3.png);
 }
 
-.image-g4{
-    background-image: url(../source/Thumbnail\ Gallery4.png);
+.image-g4 {
+  background-image: url(../source/Thumbnail\ Gallery4.png);
 }
 
-.image-g5{
-    background-image: url(../source/Thumbnail\ Gallery5.png);
+.image-g5 {
+  background-image: url(../source/Thumbnail\ Gallery5.png);
 }
 
-.image-g6{
-    background-image: url(../source/Thumbnail\ Gallery6.png);
+.image-g6 {
+  background-image: url(../source/Thumbnail\ Gallery6.png);
 }
 
-.image-g7{
-    background-image: url(../source/Thumbnail\ Gallery7.png);
+.image-g7 {
+  background-image: url(../source/Thumbnail\ Gallery7.png);
 }
 
-.image-g8{
-    background-image: url(../source/Thumbnail\ Gallery8.png);
+.image-g8 {
+  background-image: url(../source/Thumbnail\ Gallery8.png);
 }

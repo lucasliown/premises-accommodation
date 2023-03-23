@@ -68,9 +68,9 @@ header {
 
 footer {
   grid-column: span 12;
-  grid-row: span 2;  
-  background-color:rgb(112,152,178);
-  box-shadow: -1px -56px 70px -47px rgba(181,176,176,0.71);
-  -webkit-box-shadow: -1px -56px 70px -47px rgba(181,176,176,0.71);
-  -moz-box-shadow: -1px -56px 70px -47px rgba(181,176,176,0.71);
+  grid-row: span 2;
+  background-color: rgb(112, 152, 178);
+  box-shadow: -1px -56px 70px -47px rgba(181, 176, 176, 0.71);
+  -webkit-box-shadow: -1px -56px 70px -47px rgba(181, 176, 176, 0.71);
+  -moz-box-shadow: -1px -56px 70px -47px rgba(181, 176, 176, 0.71);
 }
