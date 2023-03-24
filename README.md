@@ -1,6 +1,9 @@
 # premises-accommodation
 This project is a responsive Landing page is for a residential college of a university to be used to advertise their on premises accommodation for undergraduate students and collect the details of prospects for remarketing. The tech stack is HTML CSS JavaScript. Run on any browser, expect IE.
 
+### GitHub link:
+https://github.com/lucasliown/premises-accommodation
+
 ### Features:
 * Landing page
   * Navigation bar
@@ -24,5 +27,9 @@ This project is a responsive Landing page is for a residential college of a univ
   * Footer
    <br>Footer have 3 cols with links to the site navigation, last col should have a logo. Then,Tag line which is  centered at the bottom under the cols
         ![Image](https://firebasestorage.googleapis.com/v0/b/whitegive-bc20c.appspot.com/o/gitHub%2Ffooter.png?alt=media&token=bb0a4e0c-792b-47b7-b858-35d16ac05a6b)
+
+
+###  what to install and how to run
+Install Visual studio code , install extension "open in browser", Then, find the HTML file in the folder, right click. After that, find option "open in Default browser. Note! This website not support IE browser.
 
 
