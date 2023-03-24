@@ -84,11 +84,12 @@
   -moz-box-shadow: 7px 10px 20px #a8a8a8;
   -webkit-box-shadow: 7px 10px 20px #a8a8a8;
   box-shadow: 7px 10px 20px #a8a8a8;
-  background-color: rgba(224, 227, 227, 0.783);
+  background-color: rgb(212, 216, 216);
   border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
   z-index: 99999;
 }
 
+/* search bar */
 .search {
   width: 15rem;
   position: relative;

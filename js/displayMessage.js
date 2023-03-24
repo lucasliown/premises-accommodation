@@ -1,3 +1,4 @@
+// display message
 function displayMessage(event) {
   event.preventDefault();
   const name = event.target.elements.name.value;
@@ -13,6 +14,7 @@ function displayMessage(event) {
   titleBox.innerHTML = getPersonalDetailHTML(name);
 }
 
+// return html template
 function getPersonalDetailHTML(personal_detail) {
   return `
         <div class="personal-box">

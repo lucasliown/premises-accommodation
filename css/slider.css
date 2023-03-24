@@ -124,6 +124,7 @@
   font-size: 2.4em;
 }
 
+/* for justfield content when screen become smaller */
 @media screen and (width>900px) {
   .slide-box {
     width: 100%;

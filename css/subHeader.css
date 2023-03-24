@@ -66,6 +66,8 @@
 .submitButton:hover {
   background-color: rgba(81, 128, 161, 0.873);
 }
+
+/* for justfield content when screen become smaller */
 @media screen and (width<1050px) {
   .input-box {
     display: flex;
