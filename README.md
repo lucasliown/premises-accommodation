@@ -30,6 +30,6 @@ https://github.com/lucasliown/premises-accommodation
 
 
 ###  what to install and how to run
-Install Visual studio code , install extension "open in browser", Then, find the HTML file in the folder, right click. After that, find option "open in Default browser. Note! This website not support IE browser.
+Install Visual studio code , install extension "open in browser", Then, find the HTML file "index.html" in the folder, right click. After that, find option "open in Default browser. Note! This website not support IE browser.
 
 
